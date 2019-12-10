@@ -1,0 +1,30 @@
+console.log("alo brasil")
+
+
+
+alert("ola fudidos")
+
+
+typeof(1)
+
+typeof("teste")
+
+document.getElementById('div_id')
+
+document.getElementsByClassName('first_div')
+
+document.getElementById('div_id').innerHTML = "<h1>New Txt</h1>" 
+
+document.getElementById('div_id').insertAdjacentHTML('afterbegin', "<h1>My After Begin</h1>");
+document.getElementById('div_id').insertAdjacentHTML('afterend', "<h1>After End</h1>");
+document.getElementById('div_id').insertAdjacentHTML('beforebegin', "<h1>My After Begin</h1>");
+document.getElementById('div_id').insertAdjacentHTML('beforeend', "<h1>My After Begin</h1>");
+
+document.getElementById('div_id').classList.add('second_div')
+document.getElementById('div_id').classList.remove('first_div')
+
+setTimeout(function(){ alert("Hello");}, 3000;
+
+setInterval(function(){ alert("Hello");}, 3000;
+
+
